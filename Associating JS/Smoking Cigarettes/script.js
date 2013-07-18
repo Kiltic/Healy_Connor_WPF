@@ -26,7 +26,7 @@ totalTen = totalTen.toFixed(2);       //this sets the amount of characters that 
 
 alert("You smoke for an average of " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh? Click 'OK'.");      //this is the first alert telling the user how many minutes/day they smoke
 alert("That number translates to " + totalHoursDay + " hours a day. \nStill not too bad, I mean you are only spending " + totalHoursDay + " hours out of a 24 hour day, right?\n Click 'OK'");     //this is the alert telling the user how many hours/day they smoke
-alert("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\n Still not enough? Ok, Click 'OK'");       //this is the alert telling the user how many days/year they smoke
+alert("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\nStill not enough? Ok, Click 'OK'");       //this is the alert telling the user how many days/year they smoke
 alert("did you know you smoke " + totalCigs + " packs of cigarettes a year? Click'OK'");       //this is the alert telling the user how many packs/year they smoke
 alert("Did you know you spend $" + totalCost + " on a smokes each year? That's not much, right? Click 'OK'.");     //this tells the user how much they spend on cigarettes each year
 alert("if you quit smoking and opened an account and put the money you would spend on butts into it, in 10 years you could save $" + totalTen + ". What would that buy you?");    //this tells the user how much they will spend on cigarettes in 10 years
