@@ -35,7 +35,7 @@ var totalDays = totalHoursDay * daysYear / hoursDay;    //this will find the amo
 
 totalDays = totalDays.toFixed(2);    //this sets the amount of characters that will show after the decimal point
 
-var totalCigs = cigsDay * daysYear / cigsPack;     //this will find the amount of minutes/day the user smokes
+var totalCigs = cigsDay * daysYear / cigsPack;     //this will find the amount of packs of smokes per year the user smokes
 
 totalCigs = totalCigs.toFixed(2);         //this sets the amount of characters that will show after the decimal point
 
