@@ -1,4 +1,4 @@
-//How much time do you spend smoking Cigarettes?
+//Smoking_Cigarettes -- How much time do you spend smoking Cigarettes?
 
 
 var averageTime = 6;  //this is the average time an American takes to smoke a cigarette
