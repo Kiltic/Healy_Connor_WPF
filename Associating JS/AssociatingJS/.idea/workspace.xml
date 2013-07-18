@@ -4,7 +4,7 @@
     <list default="true" id="0e38eb23-389f-46d4-8842-6ff3cf4b8336" name="Default" comment="" />
     <ignored path="AssociatingJS.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="0e38eb23-389f-46d4-8842-6ff3cf4b8336" time="1374115757438" ignored="false" />
+    <file path="/index.html" changelist="0e38eb23-389f-46d4-8842-6ff3cf4b8336" time="1374128352649" ignored="false" />
     <file path="/script.js" changelist="0e38eb23-389f-46d4-8842-6ff3cf4b8336" time="1374118963009" ignored="false" />
     <file path="/js.js" changelist="0e38eb23-389f-46d4-8842-6ff3cf4b8336" time="1374118214236" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,37 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="61" selection-end="98" vertical-scroll-proportion="0.088757396">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Expressions_worksheet/index.html">
+        <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Expressions_worksheet/js.js">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+            <state line="8" column="110" selection-start="548" selection-end="548" vertical-scroll-proportion="0.12663755">
               <folding />
             </state>
           </provider>
@@ -76,10 +58,13 @@
         <option value="$PROJECT_DIR$/js/Expressions_worksheet/index.html" />
         <option value="$PROJECT_DIR$/js/Expressions_worksheet/js.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/Smoking Cigarettes/script.js" />
+        <option value="$PROJECT_DIR$/Smoking Cigarettes/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="14" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="848" />
@@ -110,6 +95,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -118,20 +104,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssociatingJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssociatingJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssociatingJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssociatingJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smoking Cigarettes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Unnamed">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -147,7 +158,18 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="Unnamed" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="chrome" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Unnamed" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -159,7 +181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="848" extended-state="0" />
+    <frame x="14" y="22" width="1440" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -311,30 +333,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Expressions_worksheet/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Expressions_worksheet/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+        <state line="4" column="6" selection-start="61" selection-end="98" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+        <state line="11" column="18" selection-start="292" selection-end="292" vertical-scroll-proportion="0.23571429">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/Expressions_worksheet/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="61" selection-end="98" vertical-scroll-proportion="0.088757396">
+        <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.110946745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Expressions_worksheet/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.15">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="110" selection-start="548" selection-end="548" vertical-scroll-proportion="0.12663755">
           <folding />
         </state>
       </provider>
