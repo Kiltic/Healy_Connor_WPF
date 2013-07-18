@@ -1,5 +1,6 @@
 //Smoking_Cigarettes -- How much time do you spend smoking Cigarettes?
 
+//Here we will find out the amount of time you spend smoking cigarettes and how much you spend on cigarettes per year.
 
 var averageTime = 6;  //this is the average time an American takes to smoke a cigarette
 var averageCost = 8.25;  //this is the average cost of a cigarette in the US
