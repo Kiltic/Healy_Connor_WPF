@@ -43,7 +43,7 @@ var totalCost = totalCigs * averageCost;  //this will find the average cost of c
 
 totalCost = totalCost.toFixed(2);       //this sets the amount of characters that will show after the decimal point
 
-var totalTen = totalCost * tenYears;
+var totalTen = totalCost * tenYears;     //this will find the average cost of cigarettes per 10 years the user spends
 
 totalTen = totalTen.toFixed(2);       //this sets the amount of characters that will show after the decimal point
 
