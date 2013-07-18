@@ -31,11 +31,11 @@ totalMinDay = totalMinDay.toFixed(2);      //this sets the amount of characters 
 var totalHoursDay = totalMinDay / minHour;    //this will find the amount of hours/day the user smokes
 totalHoursDay = totalHoursDay.toFixed(2);  //this sets the amount of characters that will show after the decimal point
 
-var totalDays = totalHoursDay * daysYear / hoursDay;
+var totalDays = totalHoursDay * daysYear / hoursDay;    //this will find the amount of days of the year the user smokes
 
 totalDays = totalDays.toFixed(2);    //this sets the amount of characters that will show after the decimal point
 
-var totalCigs = cigsDay * daysYear / cigsPack;
+var totalCigs = cigsDay * daysYear / cigsPack;     //this will find the amount of minutes/day the user smokes
 
 totalCigs = totalCigs.toFixed(2);         //this sets the amount of characters that will show after the decimal point
 
