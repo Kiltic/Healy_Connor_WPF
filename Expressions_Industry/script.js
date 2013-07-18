@@ -8,13 +8,20 @@ var parts;
 
 var labor;
 
-var tax;
+var tax = .07;
 
 alert("Healy Automotive Service Bill Calculator");
 
 parts = prompt("Please insert total Parts amount here. When done, Click 'OK'.");
 
 labor = prompt("Please insert total Labor amount here. When done, Click 'OK'.");
+
+total = (labor + Parts) * tax;
+
+action(total);
+
+console.log(total);
+
 
 
 
