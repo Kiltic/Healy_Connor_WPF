@@ -16,7 +16,7 @@ parts = prompt("Please insert total Parts amount here. When done, Click 'OK'.");
 
 labor = prompt("Please insert total Labor amount here. When done, Click 'OK'.");
 
-total = (labor + Parts) * tax;
+total = (labor + parts) * tax;
 
 action(total);
 
