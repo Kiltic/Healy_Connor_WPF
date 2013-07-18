@@ -24,7 +24,7 @@ var tenYears = 10;   //this is the amount of years in ten years
 
 var cigsDay = prompt("How many Cigarettes do you smoke per day? Be honest!");  //this is the original prompt where the user will input his required info
 
-var totalMinDay = cigsDay * averageTime;
+var totalMinDay = cigsDay * averageTime;    //this will find the amount of minutes/day the user smokes
 totalMinDay = totalMinDay.toFixed(2);
 
 var totalHoursDay = totalMinDay / minHour;
