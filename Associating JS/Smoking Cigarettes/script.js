@@ -28,19 +28,19 @@ var totalMinDay = cigsDay * averageTime;    //this will find the amount of minut
 totalMinDay = totalMinDay.toFixed(2);      //this sets the amount of characters that will show after the decimal point
 
 var totalHoursDay = totalMinDay / minHour;
-totalHoursDay = totalHoursDay.toFixed(2);
+totalHoursDay = totalHoursDay.toFixed(2);  //this sets the amount of characters that will show after the decimal point
 
 var totalDays = totalHoursDay * daysYear / hoursDay;
-totalDays = totalDays.toFixed(2);
+totalDays = totalDays.toFixed(2);    //this sets the amount of characters that will show after the decimal point
 
 var totalCigs = cigsDay * daysYear / cigsPack;
-totalCigs = totalCigs.toFixed(2);
+totalCigs = totalCigs.toFixed(2);         //this sets the amount of characters that will show after the decimal point
 
 var totalCost = totalCigs * averageCost;
-totalCost = totalCost.toFixed(2);
+totalCost = totalCost.toFixed(2);       //this sets the amount of characters that will show after the decimal point
 
 var totalTen = totalCost * tenYears;
-totalTen = totalTen.toFixed(2);
+totalTen = totalTen.toFixed(2);       //this sets the amount of characters that will show after the decimal point
 
 console.log(totalMinDay);
 
