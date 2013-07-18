@@ -64,12 +64,12 @@ alert("did you know you smoke " + totalCigs + " packs of cigarettes a year? Clic
 
 console.log("did you know you smoke " + totalCigs + " packs of cigarettes a year?");       //this is the log telling the user how many packs/year they smoke
 
-alert("Did you know you spend $" + totalCost + " on a smokes each year? Click 'OK'.");
+alert("Did you know you spend $" + totalCost + " on a smokes each year? Click 'OK'.");     //this tells the user how much they spend on cigarettes each year
 
-console.log("Did you know you spend $" + totalCost + " on a smokes each year?");
+console.log("Did you know you spend $" + totalCost + " on a smokes each year?");     //this tells the user how much they spend on cigarettes each year
 
-alert("if you quit smoking and opened an account to put the money you would spend on butts into it, in 10 years you could save $" + totalTen + ". What would that buy you?");
+alert("if you quit smoking and opened an account to put the money you would spend on butts into it, in 10 years you could save $" + totalTen + ". What would that buy you?");    //this tells the user how much they will spend on cigarettes in 10 years
 
-console.log("if you quit smoking and put the money you would spend\non butts into it, in 10 years you could save $" + totalTen + ". What would that buy you?");
+console.log("if you quit smoking and put the money you would spend\non butts into it, in 10 years you could save $" + totalTen + ". What would that buy you?");    //this tells the user how much they will spend on cigarettes in 10 years
 
 alert("this message has been brought to you by the\n'Hey, I still smoke too, just thought you should know' foundation.\nThank you for taking my little survey. :) ");
