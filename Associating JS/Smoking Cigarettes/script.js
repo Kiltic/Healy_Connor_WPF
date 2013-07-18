@@ -39,7 +39,7 @@ var totalCigs = cigsDay * daysYear / cigsPack;     //this will find the amount o
 
 totalCigs = totalCigs.toFixed(2);         //this sets the amount of characters that will show after the decimal point
 
-var totalCost = totalCigs * averageCost;
+var totalCost = totalCigs * averageCost;  //this will find the average cost of cigarettes per year the user spends
 
 totalCost = totalCost.toFixed(2);       //this sets the amount of characters that will show after the decimal point
 
