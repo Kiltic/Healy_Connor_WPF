@@ -48,21 +48,21 @@ var totalTen = totalCost * tenYears;     //this will find the average cost of ci
 totalTen = totalTen.toFixed(2);       //this sets the amount of characters that will show after the decimal point
 
 
-alert("You smoke for an average of " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh? Click 'OK'.");
+alert("You smoke for an average of " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh? Click 'OK'.");      //this is the first alert telling the user how many minutes/day they smoke
 
-console.log("You smoke for " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh?");
+console.log("You smoke for " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh?");       //this is the first log telling the user how many minutes/day they smoke
 
-alert("That number translates to " + totalHoursDay + " hours a day. \nStill not too bad, I mean it is only " + totalHoursDay + " hours a day, right?\n Click 'OK'");
+alert("That number translates to " + totalHoursDay + " hours a day. \nStill not too bad, I mean it is only " + totalHoursDay + " hours a day, right?\n Click 'OK'");     //this is the alert telling the user how many hours/day they smoke
 
-console.log("That number translates to " + totalHoursDay + " hours a day. \nStill not too bad, I mean it is only " + totalHoursDay + " hours a day, right?");
+console.log("That number translates to " + totalHoursDay + " hours a day. \nStill not too bad, I mean it is only " + totalHoursDay + " hours a day, right?");  //this is the log telling the user how many hours/day they smoke
 
-alert("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\n Still not enough? Ok, Click 'OK'");
+alert("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\n Still not enough? Ok, Click 'OK'");       //this is the alert telling the user how many days/year they smoke
 
-console.log("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\n Still not enough?");
+console.log("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\n Still not enough?");   //this is the log telling the user how many days/year they smoke
 
-alert("did you know you smoke " + totalCigs + " packs of cigarettes a year? Click'OK'");
+alert("did you know you smoke " + totalCigs + " packs of cigarettes a year? Click'OK'");       //this is the alert telling the user how many packs/year they smoke
 
-console.log("did you know you smoke " + totalCigs + " packs of cigarettes a year?");
+console.log("did you know you smoke " + totalCigs + " packs of cigarettes a year?");       //this is the log telling the user how many packs/year they smoke
 
 alert("Did you know you spend $" + totalCost + " on a smokes each year? Click 'OK'.");
 
