@@ -11,6 +11,6 @@ var numOfPies = 10;       //total amount of pies
 
 var totalSlices = numOfPies * slicesPerPie / partyPeeps;
 
-var text1 = "Each partygoer had ";
+var text1 = "Each partygoer had ";        //Added text here to make the answer make more sense to the reader
 var text2 = " slices of pie...EXACTLY!"
 console.log(text1 + totalSlices + text2);
