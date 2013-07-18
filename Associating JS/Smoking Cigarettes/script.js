@@ -1,25 +1,25 @@
 //How much time do you spend smoking Cigarettes?
 
 
-var averageTime = 6;
+var averageTime = 6;  //this is the average time an American takes to smoke a cigarette
 
 
-var averageCost = 8.25;
+var averageCost = 8.25;  //this is the average cost of a cigarette in the US
 
 
-var cigsPack = 20;
+var cigsPack = 20;    //this is the amount of cigarettes in a pack
 
 
-var minHour = 60;
+var minHour = 60;     //this is the amount of minutes in an hour
 
 
-var hoursDay = 24;
+var hoursDay = 24;   //this is the amount of hours in a day
 
 
-var daysYear = 365;
+var daysYear = 365;   //this is the amount of days in a year
 
 
-var tenYears = 10;
+var tenYears = 10;   //this is the amount of years in ten years
 
 
 var cigsDay = prompt("How many Cigarettes do you smoke per day? Be honest!");
