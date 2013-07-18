@@ -1,4 +1,4 @@
-//Expressions_Worksheet_Slice_of_Pie
+//Expressions_Worksheet_Slice_of_Pie_Part_II
 
 //Here we will find out how many slices of pizza each partygoer had if everybody had the same amount of slices/
 
@@ -11,6 +11,16 @@ var numOfPies = 10;       //total amount of pies
 
 var totalSlices = numOfPies * slicesPerPie / partyPeeps;
 
+var modulo = numOfPies * slicesPerPie % partyPeeps;
+
 var text1 = "Each partygoer had ";        //Added text here to make the answer make more sense to the reader
+
 var text2 = " slices of pie...EXACTLY!"
-console.log(text1 + totalSlices + text2);
+
+var text3 = "Sparky gets ";
+
+var text4 = " slices too!"
+
+console.log(text1 + totalSlices + text2); //
+
+console.log(text3 + modulo +text4);
