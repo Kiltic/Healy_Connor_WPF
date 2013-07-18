@@ -10,7 +10,7 @@ var labor;
 
 var total;
 
-total = labor + parts * tax;
+var subtotal;
 
 var tax = 1.07;
 
@@ -20,7 +20,9 @@ parts = prompt("Please insert total Parts amount here. When done, Click 'OK'.");
 
 labor = prompt("Please insert total Labor amount here. When done, Click 'OK'.");
 
+subtotal = (parts + labor);
 
+total = subtotal * tax;
 
 alert(total);
 
