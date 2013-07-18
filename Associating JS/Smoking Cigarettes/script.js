@@ -24,15 +24,16 @@ totalTen = totalTen.toFixed(2);       //this sets the amount of characters that 
 
 
 alert("You smoke for an average of " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh? Click 'OK'.");      //this is the first alert telling the user how many minutes/day they smoke
-console.log("You smoke for " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh?");       //this is the first log telling the user how many minutes/day they smoke
 alert("That number translates to " + totalHoursDay + " hours a day. \nStill not too bad, I mean it is only " + totalHoursDay + " hours a day, right?\n Click 'OK'");     //this is the alert telling the user how many hours/day they smoke
-console.log("That number translates to " + totalHoursDay + " hours a day. \nStill not too bad, I mean it is only " + totalHoursDay + " hours a day, right?");  //this is the log telling the user how many hours/day they smoke
 alert("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\n Still not enough? Ok, Click 'OK'");       //this is the alert telling the user how many days/year they smoke
-console.log("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\n Still not enough?");   //this is the log telling the user how many days/year they smoke
 alert("did you know you smoke " + totalCigs + " packs of cigarettes a year? Click'OK'");       //this is the alert telling the user how many packs/year they smoke
-console.log("did you know you smoke " + totalCigs + " packs of cigarettes a year?");       //this is the log telling the user how many packs/year they smoke
 alert("Did you know you spend $" + totalCost + " on a smokes each year? Click 'OK'.");     //this tells the user how much they spend on cigarettes each year
-console.log("Did you know you spend $" + totalCost + " on a smokes each year?");     //this tells the user how much they spend on cigarettes each year
 alert("if you quit smoking and opened an account to put the money you would spend on butts into it, in 10 years you could save $" + totalTen + ". What would that buy you?");    //this tells the user how much they will spend on cigarettes in 10 years
-console.log("if you quit smoking and put the money you would spend\non butts into it, in 10 years you could save $" + totalTen + ". What would that buy you?");    //this tells the user how much they will spend on cigarettes in 10 years
 alert("this message has been brought to you by the\n'Hey, I still smoke too, just thought you should know' foundation.\nThank you for taking my little survey. :) ");
+
+console.log("You smoke for " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh?");       //this is the first log telling the user how many minutes/day they smoke
+console.log("That number translates to " + totalHoursDay + " hours a day. \nStill not too bad, I mean it is only " + totalHoursDay + " hours a day, right?");  //this is the log telling the user how many hours/day they smoke
+console.log("How about this. You spend " + totalDays + " days out of each year smoking cigarettes!\n Still not enough?");   //this is the log telling the user how many days/year they smoke
+console.log("did you know you smoke " + totalCigs + " packs of cigarettes a year?");       //this is the log telling the user how many packs/year they smoke
+console.log("Did you know you spend $" + totalCost + " on a smokes each year?");     //this tells the user how much they spend on cigarettes each year
+console.log("if you quit smoking and put the money you would spend\non butts into it, in 10 years you could save $" + totalTen + ". What would that buy you?");    //this tells the user how much they will spend on cigarettes in 10 years
