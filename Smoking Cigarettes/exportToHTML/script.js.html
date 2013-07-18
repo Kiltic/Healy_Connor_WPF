@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>script.js</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(128,128,128); font-style: italic; }
+.s1 { }
+.s2 { color: rgb(0,0,128); font-weight: bold; }
+.s3 { color: rgb(0,0,255); }
+.s4 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+script.js</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<a name="l1"><span class="ln">1    </span></a><span class="s0">//Smoking_Cigarettes -- How much time do you spend smoking Cigarettes?</span><span class="s1"> 
+<a name="l2"><span class="ln">2    </span></a> 
+<a name="l3"><span class="ln">3    </span></a></span><span class="s0">//Here we will find out the amount of time you spend smoking cigarettes and how much you spend on cigarettes per year.</span><span class="s1"> 
+<a name="l4"><span class="ln">4    </span></a> 
+<a name="l5"><span class="ln">5    </span></a></span><span class="s2">var </span><span class="s1">averageTime = </span><span class="s3">6</span><span class="s1">;  </span><span class="s0">//this is the average time an American takes to smoke a cigarette</span><span class="s1"> 
+<a name="l6"><span class="ln">6    </span></a></span><span class="s2">var </span><span class="s1">averageCost = </span><span class="s3">8.25</span><span class="s1">;  </span><span class="s0">//this is the average cost of a cigarette in the US</span><span class="s1"> 
+<a name="l7"><span class="ln">7    </span></a></span><span class="s2">var </span><span class="s1">cigsPack = </span><span class="s3">20</span><span class="s1">;    </span><span class="s0">//this is the amount of cigarettes in a pack</span><span class="s1"> 
+<a name="l8"><span class="ln">8    </span></a></span><span class="s2">var </span><span class="s1">minHour = </span><span class="s3">60</span><span class="s1">;     </span><span class="s0">//this is the amount of minutes in an hour</span><span class="s1"> 
+<a name="l9"><span class="ln">9    </span></a></span><span class="s2">var </span><span class="s1">hoursDay = </span><span class="s3">24</span><span class="s1">;   </span><span class="s0">//this is the amount of hours in a day</span><span class="s1"> 
+<a name="l10"><span class="ln">10   </span></a></span><span class="s2">var </span><span class="s1">daysYear = </span><span class="s3">365</span><span class="s1">;   </span><span class="s0">//this is the amount of days in a year</span><span class="s1"> 
+<a name="l11"><span class="ln">11   </span></a></span><span class="s2">var </span><span class="s1">tenYears = </span><span class="s3">10</span><span class="s1">;   </span><span class="s0">//this is the amount of years in ten years</span><span class="s1"> 
+<a name="l12"><span class="ln">12   </span></a></span><span class="s2">var </span><span class="s1">totalMinDay = cigsDay * averageTime;    </span><span class="s0">//this will find the amount of minutes/day the user smokes</span><span class="s1"> 
+<a name="l13"><span class="ln">13   </span></a>totalMinDay = totalMinDay.toFixed(</span><span class="s3">2</span><span class="s1">);      </span><span class="s0">//this sets the amount of characters that will show after the decimal point</span><span class="s1"> 
+<a name="l14"><span class="ln">14   </span></a></span><span class="s2">var </span><span class="s1">totalHoursDay = totalMinDay / minHour;    </span><span class="s0">//this will find the amount of hours/day the user smokes</span><span class="s1"> 
+<a name="l15"><span class="ln">15   </span></a>totalHoursDay = totalHoursDay.toFixed(</span><span class="s3">2</span><span class="s1">);  </span><span class="s0">//this sets the amount of characters that will show after the decimal point</span><span class="s1"> 
+<a name="l16"><span class="ln">16   </span></a></span><span class="s2">var </span><span class="s1">totalDays = totalHoursDay * daysYear / hoursDay;    </span><span class="s0">//this will find the amount of days of the year the user smokes</span><span class="s1"> 
+<a name="l17"><span class="ln">17   </span></a>totalDays = totalDays.toFixed(</span><span class="s3">2</span><span class="s1">);    </span><span class="s0">//this sets the amount of characters that will show after the decimal point</span><span class="s1"> 
+<a name="l18"><span class="ln">18   </span></a></span><span class="s2">var </span><span class="s1">totalCigs = cigsDay * daysYear / cigsPack;     </span><span class="s0">//this will find the amount of packs of smokes per year the user smokes</span><span class="s1"> 
+<a name="l19"><span class="ln">19   </span></a>totalCigs = totalCigs.toFixed(</span><span class="s3">2</span><span class="s1">);         </span><span class="s0">//this sets the amount of characters that will show after the decimal point</span><span class="s1"> 
+<a name="l20"><span class="ln">20   </span></a></span><span class="s2">var </span><span class="s1">totalCost = totalCigs * averageCost;  </span><span class="s0">//this will find the average cost of cigarettes per year the user spends</span><span class="s1"> 
+<a name="l21"><span class="ln">21   </span></a>totalCost = totalCost.toFixed(</span><span class="s3">2</span><span class="s1">);       </span><span class="s0">//this sets the amount of characters that will show after the decimal point</span><span class="s1"> 
+<a name="l22"><span class="ln">22   </span></a></span><span class="s2">var </span><span class="s1">totalTen = totalCost * tenYears;     </span><span class="s0">//this will find the average cost of cigarettes per 10 years the user spends</span><span class="s1"> 
+<a name="l23"><span class="ln">23   </span></a>totalTen = totalTen.toFixed(</span><span class="s3">2</span><span class="s1">);       </span><span class="s0">//this sets the amount of characters that will show after the decimal point</span><span class="s1"> 
+<a name="l24"><span class="ln">24   </span></a> 
+<a name="l25"><span class="ln">25   </span></a></span><span class="s2">var </span><span class="s1">cigsDay = prompt(</span><span class="s4">&quot;On average,how many Cigarettes do you smoke per day? Be honest!&quot;</span><span class="s1">);  </span><span class="s0">//this is the original prompt where the user will input his required info</span><span class="s1"> 
+<a name="l26"><span class="ln">26   </span></a> 
+<a name="l27"><span class="ln">27   </span></a>alert(</span><span class="s4">&quot;You smoke for an average of &quot; </span><span class="s1">+ totalMinDay + </span><span class="s4">&quot; minutes a day a day. </span><span class="s2">\n</span><span class="s4">That doesn't sound too bad huh? Click 'OK'.&quot;</span><span class="s1">);      </span><span class="s0">//this is the first alert telling the user how many minutes/day they smoke</span><span class="s1"> 
+<a name="l28"><span class="ln">28   </span></a>alert(</span><span class="s4">&quot;That number translates to &quot; </span><span class="s1">+ totalHoursDay + </span><span class="s4">&quot; hours a day. </span><span class="s2">\n</span><span class="s4">Still not too bad, I mean you are only spending &quot; </span><span class="s1">+ totalHoursDay + </span><span class="s4">&quot; hours out of a 24 hour day, right?</span><span class="s2">\n</span><span class="s4"> Click 'OK'&quot;</span><span class="s1">);     </span><span class="s0">//this is the alert telling the user how many hours/day they smoke</span><span class="s1"> 
+<a name="l29"><span class="ln">29   </span></a>alert(</span><span class="s4">&quot;How about this. You spend &quot; </span><span class="s1">+ totalDays + </span><span class="s4">&quot; days out of each year smoking cigarettes!</span><span class="s2">\n</span><span class="s4">Still not enough? Ok, Click 'OK'&quot;</span><span class="s1">);       </span><span class="s0">//this is the alert telling the user how many days/year they smoke</span><span class="s1"> 
+<a name="l30"><span class="ln">30   </span></a>alert(</span><span class="s4">&quot;did you know you smoke &quot; </span><span class="s1">+ totalCigs + </span><span class="s4">&quot; packs of cigarettes a year? Click'OK'&quot;</span><span class="s1">);       </span><span class="s0">//this is the alert telling the user how many packs/year they smoke</span><span class="s1"> 
+<a name="l31"><span class="ln">31   </span></a>alert(</span><span class="s4">&quot;Did you know you spend $&quot; </span><span class="s1">+ totalCost + </span><span class="s4">&quot; on a smokes each year? That's not much, right? Click 'OK'.&quot;</span><span class="s1">);     </span><span class="s0">//this tells the user how much they spend on cigarettes each year</span><span class="s1"> 
+<a name="l32"><span class="ln">32   </span></a>alert(</span><span class="s4">&quot;if you quit smoking and opened an account and put the money you would spend on butts into it, in 10 years you could save $&quot; </span><span class="s1">+ totalTen + </span><span class="s4">&quot;. What would that buy you?&quot;</span><span class="s1">);    </span><span class="s0">//this tells the user how much they will spend on cigarettes in 10 years</span><span class="s1"> 
+<a name="l33"><span class="ln">33   </span></a>alert(</span><span class="s4">&quot;this message has been brought to you by the</span><span class="s2">\n</span><span class="s4">'Hey, I still smoke too, just thought you should know' foundation.</span><span class="s2">\n</span><span class="s4">Thank you for taking my little survey. :) &quot;</span><span class="s1">); 
+<a name="l34"><span class="ln">34   </span></a> 
+<a name="l35"><span class="ln">35   </span></a>console.log(</span><span class="s4">&quot;On average,how many Cigarettes do you smoke per day? Be honest!&quot;</span><span class="s1">);       </span><span class="s0">//this is the original prompt where the user will input his required info</span><span class="s1"> 
+<a name="l36"><span class="ln">36   </span></a>console.log(</span><span class="s4">&quot;You smoke for &quot; </span><span class="s1">+ totalMinDay + </span><span class="s4">&quot; minutes a day a day. </span><span class="s2">\n</span><span class="s4">That doesn't sound too bad huh?&quot;</span><span class="s1">);       </span><span class="s0">//this is the first log telling the user how many minutes/day they smoke</span><span class="s1"> 
+<a name="l37"><span class="ln">37   </span></a>console.log(</span><span class="s4">&quot;That number translates to &quot; </span><span class="s1">+ totalHoursDay + </span><span class="s4">&quot; hours a day. </span><span class="s2">\n</span><span class="s4">Still not too bad, I mean it is only &quot; </span><span class="s1">+ totalHoursDay + </span><span class="s4">&quot; hours a day, right?&quot;</span><span class="s1">);  </span><span class="s0">//this is the log telling the user how many hours/day they smoke</span><span class="s1"> 
+<a name="l38"><span class="ln">38   </span></a>console.log(</span><span class="s4">&quot;How about this. You spend &quot; </span><span class="s1">+ totalDays + </span><span class="s4">&quot; days out of each year smoking cigarettes!</span><span class="s2">\n</span><span class="s4"> Still not enough?&quot;</span><span class="s1">);   </span><span class="s0">//this is the log telling the user how many days/year they smoke</span><span class="s1"> 
+<a name="l39"><span class="ln">39   </span></a>console.log(</span><span class="s4">&quot;did you know you smoke &quot; </span><span class="s1">+ totalCigs + </span><span class="s4">&quot; packs of cigarettes a year?&quot;</span><span class="s1">);       </span><span class="s0">//this is the log telling the user how many packs/year they smoke</span><span class="s1"> 
+<a name="l40"><span class="ln">40   </span></a>console.log(</span><span class="s4">&quot;Did you know you spend $&quot; </span><span class="s1">+ totalCost + </span><span class="s4">&quot; on a smokes each year?&quot;</span><span class="s1">);     </span><span class="s0">//this tells the user how much they spend on cigarettes each year</span><span class="s1"> 
+<a name="l41"><span class="ln">41   </span></a>console.log(</span><span class="s4">&quot;if you quit smoking and put the money you would spend</span><span class="s2">\n</span><span class="s4">on butts into it, in 10 years you could save $&quot; </span><span class="s1">+ totalTen + </span><span class="s4">&quot;. What would that buy you?&quot;</span><span class="s1">);    </span><span class="s0">//this tells the user how much they will spend on cigarettes in 10 years</span><span class="s1"> 
+<a name="l42"><span class="ln">42   </span></a> 
+<a name="l43"><span class="ln">43   </span></a>console.log(</span><span class="s4">&quot;I really enjoyed doing this, cannot wait to do it again.  I was beginning to second guess if I should be getting into this degree or not for a minute there. Good stuff!!&quot;</span><span class="s1">); 
+<a name="l44"><span class="ln">44   </span></a></span></pre>
+</body>
+</html>
