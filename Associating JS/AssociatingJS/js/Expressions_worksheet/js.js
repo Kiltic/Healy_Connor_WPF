@@ -1,16 +1,16 @@
-//Expressions_Worksheet_Dog_Years
-//I need to figure out Sparky's age in dog years
-var sparkyAge = 3; //Enter Sparky's age here
+//Expressions_Worksheet_Slice_of_Pie
 
-var dogYears = 7; //DO NOT CHANGE this is the multiplier needed to calculate age in human years
+//Here we will find out how many slices of pizza each partygoer had if everybody had the same amount of slices/
 
-var total = sparkyAge * dogYears;
-var humanAge = "This is sparky's age in human years: ";
-var actualAge = "this is sparky's age in dog years: ";
+var slicesPerPie = 8;     //total slices of pizza on each pie
 
-console.log(actualAge + sparkyAge);
-console.log(humanAge + total)
+var partyPeeps = 13;      //total amount of people at the party
 
+var numOfPies = 10;       //total amount of pies
+//take the number of pies times the number of slices on each pie and divide it by the number of people at the party
 
+var totalSlices = numOfPies * slicesPerPie / partyPeeps;
 
-//took me 13 attempts to figure out I heeded to link the index.htm to the js file.
+var text1 = "Each partygoer had ";
+var text2 = " slices of pie...EXACTLY!"
+console.log(text1 + totalSlices + text2);
