@@ -9,10 +9,9 @@ var kph = prompt;
 
 var convert = 0.621371;
 
-
-
 total = prompt("Enter the Kilometers Per Hour you are trying to convert to Miles Per Hour") * convert;
+total = total.toFixed(0);
 
-alert(total);
+alert("the answer is: " + total + " Miles Per Hour! We know, you are impressed!");
 
 console.log(total);
