@@ -1,0 +1,5 @@
+class Car:
+    string make;
+    int buildYear;
+    def drive(to, from):
+        do_drive();
