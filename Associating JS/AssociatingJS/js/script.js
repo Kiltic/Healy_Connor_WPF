@@ -1,13 +1,8 @@
-// Expressions - Concatenating
+// Expressions - Assignment Operators
 
-var a = 6;
-var b = 7;
+var a = 3;
+a ++;   //
+console.log(a);
 
-var result = a+b;
-console.log(result);
-
-
-
-//ok, this is getting fun!
 
 
