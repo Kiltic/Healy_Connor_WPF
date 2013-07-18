@@ -28,8 +28,7 @@ var totalMinDay = cigsDay * averageTime;    //this will find the amount of minut
 
 totalMinDay = totalMinDay.toFixed(2);      //this sets the amount of characters that will show after the decimal point
 
-var totalHoursDay = totalMinDay / minHour;
-
+var totalHoursDay = totalMinDay / minHour;    //this will find the amount of hours/day the user smokes
 totalHoursDay = totalHoursDay.toFixed(2);  //this sets the amount of characters that will show after the decimal point
 
 var totalDays = totalHoursDay * daysYear / hoursDay;
@@ -47,8 +46,6 @@ totalCost = totalCost.toFixed(2);       //this sets the amount of characters tha
 var totalTen = totalCost * tenYears;
 
 totalTen = totalTen.toFixed(2);       //this sets the amount of characters that will show after the decimal point
-
-console.log(totalMinDay);
 
 
 alert("You smoke for an average of " + totalMinDay + " minutes a day a day. \nThat doesn't sound too bad huh? Click 'OK'.");
