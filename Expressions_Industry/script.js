@@ -4,6 +4,10 @@
 
 var mph = ;
 
-var khp = ;
+var kph = prompt;
 
+var convert = 0.621371;
 
+var total = (kph * convert);
+
+kph = prompt("Enter the Kilometers Per Hour you are trying to convert to Miles Per Hour");
