@@ -1,6 +1,6 @@
 //Healy_Connor_Expressions_Wacky_Ad-Libs
 
-var ad=[a,b,c,d,e,f,g,h,i,j,k];
+
 
 
 
@@ -12,7 +12,28 @@ var ad=[a,b,c,d,e,f,g,h,i,j,k];
 
 alert("Hey now! It is Ad-Lib time!!!\nYou all know the drill. Follow the instructions and enter words into the boxes provided, at the end you will be able to read your story");
 
-prompt("")
+var ad=[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p];
+
+
+ad[0] = prompt("Please enter a plural noun below.");
+ad[1] = prompt("Please enter an adjective below");
+ad[2] = prompt("Please enter a noun below");
+ad[3] = prompt("Please enter a plural noun below.");
+ad[4] = prompt("Please enter a different plural noun below.");
+ad[5] = prompt("Please enter your name below.");
+ad[6] = prompt("Please enter a friends name below.");
+ad[7] = prompt("Please enter a name of a school below.");
+ad[8] = prompt("Please enter an adjective below.");
+ad[9] = prompt("Please enter a different adjective below.");
+ad[10] = prompt("Please enter a local pub below.");
+ad[11] = prompt("Please enter a noun below.");
+ad[12] = prompt("Please enter another noun below.");
+ad[13] = prompt("Please enter yet another noun below.");
+ad[13] = prompt("Please enter just one more noun below.");
+
+
+
+
 
 
 
