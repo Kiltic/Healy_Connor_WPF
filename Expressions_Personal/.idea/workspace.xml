@@ -4,7 +4,7 @@
     <list default="true" id="72efdb72-2a1c-4cc0-ade8-1f1a5aff2a0a" name="Default" comment="" />
     <ignored path="Expressions_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="72efdb72-2a1c-4cc0-ade8-1f1a5aff2a0a" time="1374194292512" ignored="false" />
+    <file path="/index.html" changelist="72efdb72-2a1c-4cc0-ade8-1f1a5aff2a0a" time="1374194919284" ignored="false" />
     <file path="/script.js" changelist="72efdb72-2a1c-4cc0-ade8-1f1a5aff2a0a" time="1374194339135" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="135" selection-end="135" vertical-scroll-proportion="-3.125">
+            <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.53571427">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="134" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.39481267">
+            <state line="35" column="134" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,8 +62,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Smoking Cigarettes/index.html" />
         <option value="$PROJECT_DIR$/Smoking Cigarettes/js/script.js" />
+        <option value="$PROJECT_DIR$/Smoking Cigarettes/index.html" />
       </list>
     </option>
   </component>
@@ -269,16 +269,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/index.html">
+    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="135" selection-end="135" vertical-scroll-proportion="-3.125">
+        <state line="35" column="134" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="134" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.39481267">
+        <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.53571427">
           <folding />
         </state>
       </provider>
