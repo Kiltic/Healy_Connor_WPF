@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="179" selection-end="179" vertical-scroll-proportion="0.49107143">
+            <state line="11" column="14" selection-start="179" selection-end="179" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="134" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.0">
+            <state line="35" column="0" selection-start="3729" selection-end="3729" vertical-scroll-proportion="0.39481267">
               <folding />
             </state>
           </provider>
@@ -62,8 +62,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Smoking Cigarettes/js/script.js" />
         <option value="$PROJECT_DIR$/Smoking Cigarettes/index.html" />
+        <option value="$PROJECT_DIR$/Smoking Cigarettes/js/script.js" />
       </list>
     </option>
   </component>
@@ -269,16 +269,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="134" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.0">
+        <state line="11" column="14" selection-start="179" selection-end="179" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/index.html">
+    <entry file="file://$PROJECT_DIR$/Smoking Cigarettes/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="179" selection-end="179" vertical-scroll-proportion="0.49107143">
+        <state line="35" column="0" selection-start="3729" selection-end="3729" vertical-scroll-proportion="0.39481267">
           <folding />
         </state>
       </provider>
