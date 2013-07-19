@@ -22,7 +22,10 @@ total = subtotal * tax;
 
 alert("the subtotal of the bill is $" + subtotal + " and the total with tax comes to $" + total);
 
-console.log("the subtotal of the bill is $" + subtotal + " and the total with tax comes to $" + total);
+console.log("The subtotal of the bill is $" + subtotal + " and the total, with NJ Sales tax @ 7%, comes to $" + total);
+
+alert("Thank you for your money!");
+console.log("Thank you for your money!");
 
 
 
