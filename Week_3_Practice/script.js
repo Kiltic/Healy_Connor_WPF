@@ -1,32 +1,55 @@
-//Conditional Logic -else if
-
-var kidHeight;
-var minHeight = 48;
-var wParentHeight = 45;
-
-
-alert("Hey kids! Welcome to Rude Island Amusement Park!");
-
-kidHeight = prompt("How tall are you in inches?");
+//July 22 Class
+//var age;
+//age = prompt("how old are you?");
+//  console.log(age);
 
 
-if(kidHeight >= minHeight){
 
-    //You can ride
+var same = 5 == "5";
+var same = 5 === "5";
+console.log("same", same);
 
-    alert("You are tall enough, ride that bitch!");
-    alert("Thank you for riding our bitchin' ride! Come again!")
-}else if(kidHeight > wParentHeight){
 
-    //you need a parent
-    alert("Haha, you need your mommy!  Go get her fine ass and come back!");
-    alert("Thank you for riding our bitchin' ride! Come again!")
-}else{
 
-     //Grow up!
+var a = 15
+    b = 20
+    c = 25
+    d = 30;
 
-    alert("Sorry bro, You are screwed!");
-    alert("Go home! Next time read the rules on the site before you make your mommy drive you all of the way here!!")
+if(a == b){
+    console.log("Test");
+
 }
+else if (a > b){
+    console.log("Test 2")
+}
+else{
+    console.log("Test 3");
+}
+
+
+
+var f = (a == b) ? 'test' : 'test 2'
+console.log(f);
+
+
+var age = 11;
+var book;
+
+
+if (age < 10){
+    book = 'Green Eggs and Ham';
+
+}
+else{
+    book = ' The Time Machine';
+
+}
+console.log(book
+    )
+
+book = (age < 10) ? 'Green Eggs and Ham' : 'The Time Machine';
+console.log(book)
+
 
 
