@@ -2,8 +2,7 @@
 
 //Based on mood, what kind of video game do you want to play?
 
-var fun;
-var angry;
+
 var boyorgirl;
 
 boyorgirl = prompt("type boy or girl.");
@@ -15,4 +14,4 @@ if (boyorgirl=="boy"){
     alert("you are a girl, HAHAHA!!");
 }else{
     alert("Hold on, you are a what? Go home, you're drunk!");
-}                                     ;
+};
