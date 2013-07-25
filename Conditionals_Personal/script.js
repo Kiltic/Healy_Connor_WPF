@@ -9,7 +9,7 @@ var mischievous;
 var answer;
 
 alert("Welcome to Connor's Game-Picker.");
-alert("I will tell what video game you should play based on your mood. Realy? 'Click OK'");
+alert("I will tell what video game you should play based on your mood. Ready? 'Click OK'");
 
 answer = prompt("what mood are you in, happy, angry or mischievous?");
 
