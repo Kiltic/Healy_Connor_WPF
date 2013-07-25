@@ -11,6 +11,8 @@ boyorgirl = prompt("type boy or girl.");
 if (boyorgirl=="boy"){
     alert("WOW you are a boy");
 
-}else{
+}else if (boyorgirl == "girl"){
     alert("you are a girl, HAHAHA!!");
+}else{
+    alert("What are you then?");
 }                                     ;
