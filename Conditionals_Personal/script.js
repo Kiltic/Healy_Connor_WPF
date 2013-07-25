@@ -3,13 +3,13 @@
 //Based on mood, what kind of video game do you want to play?
 
 
-var happy;
-var angry;
-var mischievous;
-var answer;
+var happy;               //this is the first variable that the user will pick. It will tell them an alert.
+var angry;             //this is the second variable that the user will pick. It will tell them an alert.
+var mischievous;        //this is the third variable that the user will pick. It will tell them an alert.
+var answer;           //this is the answer variable.  it is the "constant" used in the if/else statements below.
 
-alert("Welcome to Connor's Game-Picker.");
-alert("I will tell what video game you should play based on your mood. Ready? 'Click OK'");
+alert("Welcome to Connor's Game-Picker.");     //this alert is the "Welcome alert" it states what the program is/
+alert("I will tell what video game you should play based on your mood. Ready? 'Click OK'");     //This alert states how the program will work to the user.
 
 answer = prompt("what mood are you in, happy, angry or mischievous?");
 
