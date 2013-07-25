@@ -14,5 +14,5 @@ if (boyorgirl=="boy"){
 }else if (boyorgirl == "girl"){
     alert("you are a girl, HAHAHA!!");
 }else{
-    alert("What are you then?");
+    alert("Hold on, you are a what? Go home, you're drunk!");
 }                                     ;
