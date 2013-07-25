@@ -18,8 +18,7 @@ if (workHard, caffine === "yes" && space === "yes" ){
     alert("Lucky you, you are ready to be a Wed Designer, and will probably die early of a heart attack!");
 
 }else{
-    alert("I am sorry to say you do NOT have what it takes to be a Wed Designer, you are now doomed to a long, happy life");
-
+    alert("I am sorry to say you do NOT have what it takes to be a Wed Designer, you are now doomed to a long, happy life!");
 }
 
 
