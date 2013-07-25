@@ -20,5 +20,9 @@ if (answer === "happy"){
 }else if(answer === "mischievous"){
     alert("No doubt, Assasin's Creed 3. Steal from old ladies, slit throats and keep walking, drink beer and cause all sorts of ruckus. Too much fun!");
 
+}else if(answer = null){
+    alert("What are you trying to do, I am new at this! wait, you can't spell mischievous, can you.  Try again");
+
 };
+
 
