@@ -8,7 +8,7 @@ var boyorgirl;
 
 boyorgirl = prompt("type boy or girl.");
 
-if boyorgirl = "boy"{
+if (boyorgirl=="boy"){
     alert("WOW you are a boy");
 
 }else{
