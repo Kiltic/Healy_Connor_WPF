@@ -3,15 +3,22 @@
 //Based on mood, what kind of video game do you want to play?
 
 
-var boyorgirl;
+var happy;
+var angry;
+var mischievous;
+var answer;
 
-boyorgirl = prompt("type boy or girl.");
+alert("Welcome to Connor's Game-Picker.");
+alert("I will tell what video game you should play based on your mood. Realy? 'Click OK'");
 
-if (boyorgirl=="boy"){
-    alert("WOW you are a boy");
+answer = prompt("what mood are you in, happy, angry or mischievous?");
 
-}else if (boyorgirl == "girl"){
-    alert("you are a girl, HAHAHA!!");
-}else{
-    alert("Hold on, you are a what? Go home, you're drunk!");
+if (answer = "happy"){
+    alert("Oh, you have to play Sonic: Ultimate Racing")
+}else if(answer = "angry"){
+    alert("Gears of War 3, no doubt, Gears of war 3. Blood, death, AWESOMENESS, murder and mayhem!!  Nothing better, you will get up sweating.");
+}else if(answer = "mischievous"){
+    alert("No doubt, Assasin's Creed 3. Steal from old ladies, slit throats and keep walking, drink beer and cause all sorts of ruckus. Too much fun!");
+
 };
+
