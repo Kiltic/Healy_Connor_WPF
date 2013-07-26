@@ -23,7 +23,7 @@ if (workHard, caffine === "yes" && space === "yes" ){             //This line wi
     alert("Lucky you, you are ready to be a Wed Designer, and will probably die early of a heart attack!");        //If ALL 3 answers are true then this code will run
 
 }else{
-    alert("I am sorry to say you do NOT have what it takes to be a Wed Designer, you are now doomed to a long, happy life!");
+    alert("I am sorry to say you do NOT have what it takes to be a Wed Designer, you are now doomed to a long, happy life!"); //If one or more answers are false then this code will run
 }
 
 
