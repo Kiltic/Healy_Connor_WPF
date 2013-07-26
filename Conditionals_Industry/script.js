@@ -16,7 +16,8 @@ caffine = prompt("Great! Question 2 of 3. Are you addicted or do you have no pro
 
 
 space = prompt("Awesome! Question 3 of 3. Are you fine with being in a confined space, like a basement or a cubicle, with no windows " +
-    "or fresh air for days on end? Enter yes or no then 'Click OK'");
+    "or fresh air for days on end? Enter yes or no then 'Click OK'");         //The third prompt that the user will have to respond to
+
 
 if (workHard, caffine === "yes" && space === "yes" ){
     alert("Lucky you, you are ready to be a Wed Designer, and will probably die early of a heart attack!");
