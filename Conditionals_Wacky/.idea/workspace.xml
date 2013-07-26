@@ -4,7 +4,7 @@
     <list default="true" id="29db752f-63f9-448e-969b-9fc013d856d4" name="Default" comment="" />
     <ignored path="Conditionals_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/script.js" changelist="29db752f-63f9-448e-969b-9fc013d856d4" time="1374805194061" ignored="false" />
+    <file path="/script.js" changelist="29db752f-63f9-448e-969b-9fc013d856d4" time="1374805641213" ignored="false" />
     <file path="/index.html" changelist="29db752f-63f9-448e-969b-9fc013d856d4" time="1374802764691" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="570" selection-end="570" vertical-scroll-proportion="0.5084746">
+            <state line="23" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.7309322">
               <folding />
             </state>
           </provider>
@@ -257,7 +257,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="570" selection-end="570" vertical-scroll-proportion="0.5084746">
+        <state line="23" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.7309322">
           <folding />
         </state>
       </provider>

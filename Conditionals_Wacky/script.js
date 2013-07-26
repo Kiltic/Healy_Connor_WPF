@@ -4,6 +4,7 @@
 
 var drool;
 var bieber;
+var fannyPack;
 
 
 alert("Welcome to Connor's Chick-Checker!");
@@ -16,6 +17,7 @@ bieber= prompt("How many Justin Bieber tee shirts do you have hanging in your cl
 
 if(bieber != "0"){
     alert("Get out, you are no longer worthy to use the Chick-Checker!! I mean it, GO AWAY!");
-}else{
-    prompt("")
 }
+
+fannyPack = prompt("Have you ever worn or still enjoy wearing a Fanny Pack?");
+
