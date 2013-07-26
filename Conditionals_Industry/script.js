@@ -8,6 +8,8 @@ var caffine;           //This is the second variable that will be equal the answ
 var space;             //This is the third variable that will be equal the answer the user gives from the corresponding prompt.
 
 alert("Welcome to Connor's 'Are you really ready to be a Web Designer?' quiz. Let's see if you are. 'Click OK'");    //This is the welcome alert saying Hi to the user.
+
+
 workHard = prompt("Question 1 of 3. Are you willing to work endlessly and tirelessly for days straight without any recognition " +
     "for your work or what you have done? Enter yes or no below then 'Click OK'.");               //The first prompt that the user will have to respond to
 
