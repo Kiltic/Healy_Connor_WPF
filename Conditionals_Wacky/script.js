@@ -14,7 +14,7 @@ alert("Here we will find out, according to me, whether you have what it takes to
 
 bieber= prompt("How many Justin Bieber tee shirts do you have hanging in your closet?");
 
-if(bieber != 0){
+if(bieber = "0"){
     alert("Get out, you are no longer worthy to use the Chick-Checker!! I mean it, GO AWAY!");
 }else{
     prompt("")
