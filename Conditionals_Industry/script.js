@@ -21,9 +21,10 @@ space = prompt("Awesome! Question 3 of 3. Are you fine with being in a confined 
 
 if (workHard, caffine === "yes" && space === "yes" ){             //This line will decide if all three answers are true are false.
     alert("Lucky you, you are ready to be a Wed Designer, and will probably die early of a heart attack!");        //If ALL 3 answers are true then this code will run
-
+    console.log("Lucky you, you are ready to be a Wed Designer, and will probably die early of a heart attack!");        //If ALL 3 answers are true then this code will run
 }else{
     alert("I am sorry to say you do NOT have what it takes to be a Wed Designer, you are now doomed to a long, happy life!"); //If one or more answers are false then this code will run
+    console.log("I am sorry to say you do NOT have what it takes to be a Wed Designer, you are now doomed to a long, happy life!"); //If one or more answers are false then this code will run
 }
 
 
