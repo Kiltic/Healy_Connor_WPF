@@ -9,7 +9,7 @@ var space;             //This is the third variable that will be equal the answe
 
 alert("Welcome to Connor's 'Are you really ready to be a Web Designer?' quiz. Let's see if you are. 'Click OK'");    //This is the welcome alert saying Hi to the user.
 workHard = prompt("Question 1 of 3. Are you willing to work endlessly and tirelessly for days straight without any recognition " +
-    "for your work or what you have done? Enter yes or no below then 'Click OK'.");
+    "for your work or what you have done? Enter yes or no below then 'Click OK'.");               //The first prompt that the user will have to respond to
 
 caffine = prompt("Great! Question 2 of 3. Are you addicted or do you have no problem becoming addicted to a caffinated beverage, ie: " +
     "RedBull, Monster Energy Drinks or Soda? Enter yes or no and 'Click OK'");
