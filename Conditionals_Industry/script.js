@@ -5,14 +5,17 @@
 
 var workHard;          //This is the first variable that will be equal the answer the user gives from the corresponding prompt.
 var caffine;           //This is the second variable that will be equal the answer the user gives from the corresponding prompt.
-var space;
+var space;             //This is the third variable that will be equal the answer the user gives from the corresponding prompt.
 
-alert("Welcome to Connor's 'Are you really ready to be a Web Designer?' quiz. Let's see if you are. 'Click OK'");
-workHard = prompt("Question 1 of 3. Are you willing to work endlessly and tirelessly for days straight without any recognition for your work or what you have done? Enter yes or no below then 'Click OK'.");
+alert("Welcome to Connor's 'Are you really ready to be a Web Designer?' quiz. Let's see if you are. 'Click OK'");    //This is the welcome alert saying Hi to the user.
+workHard = prompt("Question 1 of 3. Are you willing to work endlessly and tirelessly for days straight without any recognition " +
+    "for your work or what you have done? Enter yes or no below then 'Click OK'.");
 
-caffine = prompt("Great! Question 2 of 3. Are you addicted or do you have no problem becoming addicted to a caffinated beverage, ie: RedBull, Monster Energy Drinks or Soda? Enter yes or no and 'Click OK'");
+caffine = prompt("Great! Question 2 of 3. Are you addicted or do you have no problem becoming addicted to a caffinated beverage, ie: " +
+    "RedBull, Monster Energy Drinks or Soda? Enter yes or no and 'Click OK'");
 
-space = prompt("Awesome! Question 3 of 3. Are you fine with being in a confined space, like a basement or a cubicle, with no windows or fresh air for days on end? Enter yes or no then 'Click OK'");
+space = prompt("Awesome! Question 3 of 3. Are you fine with being in a confined space, like a basement or a cubicle, with no windows " +
+    "or fresh air for days on end? Enter yes or no then 'Click OK'");
 
 if (workHard, caffine === "yes" && space === "yes" ){
     alert("Lucky you, you are ready to be a Wed Designer, and will probably die early of a heart attack!");
