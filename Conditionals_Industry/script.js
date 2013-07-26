@@ -3,8 +3,8 @@
 //This will prove if you are ready to become a Web Designer.
 
 
-var workHard;
-var caffine;
+var workHard;          //This is the first variable that will be equal the answer the user gives from the corresponding prompt.
+var caffine;           //This is the second variable that will be equal the answer the user gives from the corresponding prompt.
 var space;
 
 alert("Welcome to Connor's 'Are you really ready to be a Web Designer?' quiz. Let's see if you are. 'Click OK'");
