@@ -19,5 +19,6 @@ if(bieber != "0"){
     alert("Get out, you are no longer worthy to use the Chick-Checker!! I mean it, GO AWAY!");
 }
 
-fannyPack = prompt("Have you ever worn or still enjoy wearing a Fanny Pack?");
+fannyPack = prompt("Thank god! Ok, have you ever worn or still enjoy wearing a Fanny Pack?");
 
+(fannyPack = "no" && drool, bieber = true) ? alert("Awesome") : alert("no chicks for you");
