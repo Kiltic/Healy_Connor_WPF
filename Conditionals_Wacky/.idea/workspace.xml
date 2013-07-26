@@ -28,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="-2.5">
+            <state line="4" column="16" selection-start="84" selection-end="84" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -37,7 +37,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="122" selection-end="122" vertical-scroll-proportion="0.12711865">
+            <state line="20" column="55" selection-start="699" selection-end="699" vertical-scroll-proportion="0.63559324">
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -250,14 +250,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="-2.5">
+        <state line="4" column="16" selection-start="84" selection-end="84" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="122" selection-end="122" vertical-scroll-proportion="0.12711865">
+        <state line="20" column="55" selection-start="699" selection-end="699" vertical-scroll-proportion="0.63559324">
           <folding />
         </state>
       </provider>
