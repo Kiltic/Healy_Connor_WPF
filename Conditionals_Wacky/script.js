@@ -20,4 +20,4 @@ if(bieber != "0"){
 
 fannyPack = prompt("Thank god! Ok, have you ever worn or still enjoy wearing a Fanny Pack?");
 
-(fannyPack = "no" && !drool, bieber = true) ? alert("Awesome") : alert("no chicks for you");
+(fannyPack = "no" && drool, bieber = false) ? alert("Awesome") : alert("no chicks for you");
