@@ -1,4 +1,4 @@
-Connor_Healy_Functions_Indusrty
+//Connor_Healy_Functions_Indusrty
 
 
 //Ths calculator will tell me how much under the amount of income I need daily to run my auto repair shop that I am each day.
@@ -7,5 +7,17 @@ Connor_Healy_Functions_Indusrty
 var income;
 var baseLine = 1000;
 
-function
+prompt("How much did you make today?");
+
+
+function findDiff(){
+    total = (baseLine - income);
+    return total;
+}
+findDiff(baseLine, income);
+
+console.log(findDiff);
+
+
+
 
