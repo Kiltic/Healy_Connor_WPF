@@ -9,8 +9,8 @@ alert("this calculator will tell you how many years you have left to live it the
 
 yourAge = prompt("How old are you?");       //this is the first prompt
 
-var yourAge;
-var expectAge = 80;
+var yourAge;                   //this is the first variable, it will be used eith the prompt to collect user's age'
+var expectAge = 80;            //This variable will
 var yearsLeft;
 
 function calcYears(){
