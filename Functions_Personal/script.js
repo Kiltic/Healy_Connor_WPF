@@ -13,7 +13,7 @@ var yourAge;                   //this is the first variable, it will be used eit
 var expectAge = 80;            //This variable will be the constant
 var yearsLeft;                //this var will be the sum of the code in the function
 
-function calcYears(){
+function calcYears(){          //the first line of the function tell the browser that I am creating a function
 
     yearsLeft = (expectAge - yourAge);
     return yearsLeft;
