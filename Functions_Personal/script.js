@@ -1,9 +1,9 @@
 //Connor_Healy_Functions_Personal
 
-var width = prompt("What is the width?");
-var height = prompt("What is the height?");
-
-var total = calcArea(width, height);
+var age1 = prompt("How old are you?");
+var age2 = prompt("How old is your wife?");
+var age3 = prompt("How old is your first born?");
+var age4 = prompt("How old is your second born?");
 var total = calcArea(width, height);
 
 
