@@ -11,7 +11,7 @@ yourAge = prompt("How old are you?");       //this is the first prompt
 
 var yourAge;                   //this is the first variable, it will be used eith the prompt to collect user's age'
 var expectAge = 80;            //This variable will be the constant
-var yearsLeft;
+var yearsLeft;                //this var will be the sum of the code in the function
 
 function calcYears(){
 
