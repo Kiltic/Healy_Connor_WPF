@@ -20,12 +20,14 @@ var age7 = prompt("How old is your fifth born? God bless you, by the way!");
 
 
 var totalAge = function(age1, age2, age3, age4, age5, age6, age7){
-    totalAge = (age1 + age2+ age3 + age4 + age5 + age6 + age7)
+    totalAge = (age1 + age2 + age3 + age4 + age5 + age6 + age7);
     return totalAge;
 
 }
 
-alert("Your family's total age is " + totalAge);
+var age = totalAge;
+
+alert("Your family's total age is " + age);
 
 /*var calcArea = function(width, height){
 
