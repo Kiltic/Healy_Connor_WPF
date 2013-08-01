@@ -5,8 +5,6 @@
 alert("This calculator will add up the ages of everyone in your immediate family. " +
     "Enter the ages below. If it doesn't apply leave it blank. 'Click OK when ready.'");
 
-
-
 var age1 = prompt("How old are you?");
 var age2 = prompt("How old is your wife/Girlfriend/Husband/Boyfriend?");
 var age3 = prompt("How old is your first born?");
@@ -17,18 +15,17 @@ var age7 = prompt("How old is your fifth born? God bless you, by the way!");
 
 
 
-var total = calcArea(width, height);
 
 
 
 
-function calcArea(w, h){
-    var area = w * h;
-    return area;
+var total = function calcAge(age1, age2, age3, age4, age5, age6, age7){
+    totalAge = (age1 + age2+ age3 + age4 + age5 + age6 + age7)
+    return totalAge;
 
 }
 
-console.log(total);
+alert("Your family's total age is " + totalAge);
 
 var calcArea = function(width, height){
 
