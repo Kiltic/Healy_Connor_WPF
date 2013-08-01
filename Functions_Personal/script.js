@@ -1,6 +1,6 @@
 //Connor_Healy_Functions_Personal_Family_Age_Calculator
 
-//This is the family Age Calculator.
+//This is the 'till your dead' calculator.
 
 
 
@@ -21,9 +21,6 @@ function calcYears(){
 }
 
 calcYears();
-
-
-
 
 console.log(yearsLeft);
 
