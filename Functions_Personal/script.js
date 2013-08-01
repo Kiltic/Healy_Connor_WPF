@@ -19,7 +19,7 @@ var age7 = prompt("How old is your fifth born? God bless you, by the way!");
 
 
 
-var totalAge = function(age1, age2, age3, age4, age5, age6, age7){
+var totalAge = function(1, 2, 3, 4, 5, 6, 7){
     totalAge = (age1 + age2 + age3 + age4 + age5 + age6 + age7);
     return totalAge;
 
