@@ -2,30 +2,22 @@
 
 //This is the family Age Calculator.
 
-alert("This calculator will add up the ages of everyone in your immediate family. " +
-    "Enter the ages below. If it doesn't apply leave it blank. 'Click OK when ready.'");
+alert("This calculator will add up the ages of you and your significant other. " +
+    "Enter the ages below. If you are single, leave it blank and this will be pretty easy to figure out. 'Click OK when ready.'");
 
 var age1 = prompt("How old are you?");
 var age2 = prompt("How old is your wife/Girlfriend/Husband/Boyfriend?");
-var age3 = prompt("How old is your first born?");
-var age4 = prompt("How old is your second born?");
-var age5 = prompt("How old is your third born?");
-var age6 = prompt("How old is your fourth born?");
-var age7 = prompt("How old is your fifth born? God bless you, by the way!");
 
 
-
-
-
-
-
-var totalAge = function(1, 2, 3, 4, 5, 6, 7){
-    totalAge = (age1 + age2 + age3 + age4 + age5 + age6 + age7);
-    return totalAge;
+var totalAge = function(age1, age2){
+    var age = (age1 + age2);
+    return age;
 
 }
 
-var age = totalAge;
+var age = totalAge(age1, age2);
+
+
 
 alert("Your family's total age is " + age);
 

@@ -4,7 +4,7 @@
     <list default="true" id="92a6cc3a-993f-487b-bc53-b613e037568b" name="Default" comment="" />
     <ignored path="Functions_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/script.js" changelist="92a6cc3a-993f-487b-bc53-b613e037568b" time="1375371513909" ignored="false" />
+    <file path="/script.js" changelist="92a6cc3a-993f-487b-bc53-b613e037568b" time="1375372299919" ignored="false" />
     <file path="/index.html" changelist="92a6cc3a-993f-487b-bc53-b613e037568b" time="1375319710938" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="70" selection-start="804" selection-end="804" vertical-scroll-proportion="0.665529">
+            <state line="15" column="1" selection-start="508" selection-end="508" vertical-scroll-proportion="0.32142857">
               <folding />
             </state>
           </provider>
@@ -61,7 +61,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="734" />
+    <option name="height" value="848" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -144,7 +144,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="734" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -242,7 +242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="70" selection-start="804" selection-end="804" vertical-scroll-proportion="0.665529">
+        <state line="15" column="1" selection-start="508" selection-end="508" vertical-scroll-proportion="0.32142857">
           <folding />
         </state>
       </provider>
