@@ -1,9 +1,22 @@
-//Connor_Healy_Functions_Personal
+//Connor_Healy_Functions_Personal_Family_Age_Calculator
+
+//This is the family Age Calculator.
+
+alert("This calculator will add up the ages of everyone in your immediate family. " +
+    "Enter the ages below. If it doesn't apply leave it blank. 'Click OK when ready.'");
+
+
 
 var age1 = prompt("How old are you?");
-var age2 = prompt("How old is your wife?");
+var age2 = prompt("How old is your wife/Girlfriend/Husband/Boyfriend?");
 var age3 = prompt("How old is your first born?");
 var age4 = prompt("How old is your second born?");
+var age5 = prompt("How old is your third born?");
+var age6 = prompt("How old is your fourth born?");
+var age7 = prompt("How old is your fifth born? God bless you, by the way!");
+
+
+
 var total = calcArea(width, height);
 
 
