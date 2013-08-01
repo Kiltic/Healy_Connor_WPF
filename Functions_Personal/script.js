@@ -19,7 +19,7 @@ var age7 = prompt("How old is your fifth born? God bless you, by the way!");
 
 
 
-var totalAge = function calcAge(age1, age2, age3, age4, age5, age6, age7){
+var totalAge = function(age1, age2, age3, age4, age5, age6, age7){
     totalAge = (age1 + age2+ age3 + age4 + age5 + age6 + age7)
     return totalAge;
 
@@ -27,7 +27,7 @@ var totalAge = function calcAge(age1, age2, age3, age4, age5, age6, age7){
 
 alert("Your family's total age is " + totalAge);
 
-var calcArea = function(width, height){
+/*var calcArea = function(width, height){
 
     var area = width * height;
     return area;
