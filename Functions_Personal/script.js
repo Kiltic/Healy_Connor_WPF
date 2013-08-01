@@ -1,6 +1,13 @@
 //Connor_Healy_Functions_Personal
 
-var total = calcArea(20, 30);
+var width = prompt("What is the width?");
+var height = prompt("What is the height?");
+
+var total = calcArea(width, height);
+var total = calcArea(width, height);
+
+
+
 
 function calcArea(w, h){
     var area = w * h;
