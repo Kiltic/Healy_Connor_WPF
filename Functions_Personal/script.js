@@ -22,5 +22,5 @@ function calcYears(){          //the first line of the function tell the browser
 
 calcYears();                //Here I am calling the function, will not run unless it is called
 
-console.log(yearsLeft);
+console.log(yearsLeft);          //here the answer will print to the console
 
