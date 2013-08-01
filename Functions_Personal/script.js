@@ -16,11 +16,11 @@ var yearsLeft;                //this var will be the sum of the code in the func
 function calcYears(){          //the first line of the function tell the browser that I am creating a function
 
     yearsLeft = (expectAge - yourAge);     //this is the code that the function will run
-    return yearsLeft;
+    return yearsLeft;                      //this is the code that the function will run
 
 }
 
-calcYears();
+calcYears();                //Here I am calling the function, will not run unless it is called
 
 console.log(yearsLeft);
 
