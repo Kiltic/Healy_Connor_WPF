@@ -7,7 +7,7 @@
 
 alert("this calculator will tell you how many years you have left to live it the life expectancy is 80 years old.")       //this is the welcome alert
 
-yourAge = prompt("How old are you?");
+yourAge = prompt("How old are you?");       //this is the first prompt
 
 var yourAge;
 var expectAge = 80;
