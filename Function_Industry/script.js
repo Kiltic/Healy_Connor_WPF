@@ -7,7 +7,7 @@
 var income;
 var baseLine = 1000;
 
-prompt("How much did you make today?");
+income = prompt("How much did you make today?");
 
 
 function findDiff(){
@@ -16,7 +16,10 @@ function findDiff(){
 }
 findDiff(baseLine, income);
 
-console.log(findDiff);
+var x = total;
+
+console.log("You need $" + x +" more dollars");
+
 
 
 
