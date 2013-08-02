@@ -11,8 +11,9 @@ var baseLine = 1000;          //This variable is the baseline price that must be
 income = prompt("How much money have you made so far today?");      //  This is the prompt where the user will fill in the amount of money they made so far today.
 
 
-function findDiff(){
-    total = (baseLine - income);
+function findDiff(){                //this tells the computer that there is a function
+
+    total = (baseLine - income);       //this
     return total;
 }
 findDiff(baseLine, income);
