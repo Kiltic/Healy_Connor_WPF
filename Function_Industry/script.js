@@ -15,7 +15,7 @@ function findDiff(){                //this tells the computer that there is a fu
 
     total = (baseLine - income);       //this is the code that will find how much more money you need
 
-    return total;
+    return total;               //this tells the browser to send the answer outside of the function
 }
 findDiff(baseLine, income);
 
