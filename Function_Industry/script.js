@@ -13,7 +13,8 @@ income = prompt("How much money have you made so far today?");      //  This is 
 
 function findDiff(){                //this tells the computer that there is a function
 
-    total = (baseLine - income);       //this
+    total = (baseLine - income);       //this is the code that will find how much more money you need
+
     return total;
 }
 findDiff(baseLine, income);
