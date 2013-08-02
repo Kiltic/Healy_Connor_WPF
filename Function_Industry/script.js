@@ -21,7 +21,7 @@ findDiff(baseLine, income);            //this calls the function and tells it to
 
 var x = total;          //this assigns "x" to the total(the calculated number from the function)
 
-console.log("You need $" + x +" more dollars to make your minimum amount for the day.");
+console.log("You need $" + x +" more dollars to make your minimum amount for the day.");      //this is what prints to the console
 
 
 
