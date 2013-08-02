@@ -6,9 +6,9 @@
 
 var income;                  //This is the first variable that will equal the user input for the prompt
 
-var baseLine = 1000;
+var baseLine = 1000;          //This variable is the baseline price that must be made each day to keep open
 
-income = prompt("How much did you make today?");
+income = prompt("How much money have you made so far today?");      //
 
 
 function findDiff(){
