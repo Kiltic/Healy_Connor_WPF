@@ -17,7 +17,7 @@ function findDiff(){                //this tells the computer that there is a fu
 
     return total;               //this tells the browser to send the answer outside of the function
 }
-findDiff(baseLine, income);
+findDiff(baseLine, income);            //this calls the function and tells it to run
 
 var x = total;
 
