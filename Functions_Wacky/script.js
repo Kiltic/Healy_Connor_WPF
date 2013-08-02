@@ -9,9 +9,16 @@ joke = prompt("enter a number between 1 and 5.");
 
 function jokes(){
     if(joke === 1){
-        alert("I don't have a microwave but I do have a clock that occasionally cooks stuff!");
+        joke1 = ("I don't have a microwave but I do have a clock that occasionally cooks stuff!");
+        return joke1;
     }
 }
 
+
 jokes();
 
+var joke1;
+
+var x = joke1;
+
+alert(x);
