@@ -18,7 +18,7 @@ findDiff(baseLine, income);
 
 var x = total;
 
-console.log("You need $" + x +" more dollars");
+console.log("You need $" + x +" more dollars to make your minimum amount for the day.");
 
 
 
