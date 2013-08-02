@@ -1,7 +1,7 @@
 //Connor_Healy_Functions_Industry
 
 
-//Ths calculator will tell me how much under the amount of income I need daily to run my auto repair shop that I am each day.
+//This calculator will tell me how much under the amount of income I need daily to run my auto repair shop that I am each day.
 
 
 var income;                  //This is the first variable that will equal the user input for the prompt
