@@ -4,7 +4,7 @@
     <list default="true" id="004a92a5-167b-4210-832d-5f85a0e05ada" name="Default" comment="" />
     <ignored path="Functions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/script.js" changelist="004a92a5-167b-4210-832d-5f85a0e05ada" time="1375404340094" ignored="false" />
+    <file path="/script.js" changelist="004a92a5-167b-4210-832d-5f85a0e05ada" time="1375404450970" ignored="false" />
     <file path="/index.html" changelist="004a92a5-167b-4210-832d-5f85a0e05ada" time="1375404369715" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="12" vertical-scroll-proportion="0.0">
+            <state line="1" column="50" selection-start="29" selection-end="29" vertical-scroll-proportion="0.04373178">
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/script.js" />
       </list>
     </option>
   </component>
@@ -242,7 +242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="12" vertical-scroll-proportion="0.0">
+        <state line="1" column="50" selection-start="29" selection-end="29" vertical-scroll-proportion="0.04373178">
           <folding />
         </state>
       </provider>
