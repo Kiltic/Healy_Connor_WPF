@@ -4,7 +4,8 @@
 //Ths calculator will tell me how much under the amount of income I need daily to run my auto repair shop that I am each day.
 
 
-var income;
+var income;                  //This is the first variable that will equal the user input for the prompt
+
 var baseLine = 1000;
 
 income = prompt("How much did you make today?");
